@@ -12,4 +12,4 @@ I made!
 
 - Multimedia: These are videos where I show some questions that students have.
  
-Disclaimer: This additional material is not intended to be a replacement of the textbook nor lectures. It is no secret that students that read the textbook and go to class tend to perform very well. 
+Disclaimer: This additional material is not intended to be a replacement of the textbook nor lectures. It is no secret that students that read the textbook and go to class tend to perform very well.  
