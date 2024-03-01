@@ -1,0 +1,44 @@
+#### CODE FOR STANDARD ERROR-MARGIN OF ERROR
+## FOR MEAN
+# Let's say we have
+xbar = mean()
+sd = sd()
+n = length()
+
+# For 95% Confidence Interval
+alpha = 0.05
+1-alpha/2
+
+# Critical value
+cv = qt(1-alpha/2, df = n - 1)
+
+# Margin of error
+moe = cv*sd/sqrt(n)
+
+#95% CI
+#Left endpoint
+xbar - moe
+
+#Right endpoint
+xbar + moe
+
+## FOR PROPORTION
+p = 
+n = length()
+
+# For 90% Confidence Interval
+alpha = 0.1
+1-alpha/2
+
+qz = qnorm(1-alpha/2)
+
+# Margin of error
+moe = qz*sqrt(p*(1-p)/n)
+
+#Left Endpoint
+p - moe
+
+
+#Right Endpoint
+p + moe
+
